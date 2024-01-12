@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SEP_Activity_in_MG__c</fullName>
+    <description>Brings down the Value of Activity of MG field from Product to Quote Line</description>
+    <externalId>false</externalId>
+    <formula>SBQQ__Product__r.SEP_Activity_in_MG__c</formula>
+    <label>Activity in MG</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>1</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>
